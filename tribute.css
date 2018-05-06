@@ -1,0 +1,16 @@
+#main {
+	width: 75%;
+	margin: 10px auto;
+	background-color: lightgray;
+}
+
+#banner {
+	text-align: center;
+}
+
+#img-div {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
