@@ -1,16 +1,18 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: rgb(235,235,235);
 }
 
 h1 {
 	margin: 0;
+	padding: 10px 0;
 }
 
 #main {
 	width: 100%;
 	margin: 0 auto;
-	background-color: lightgray;
+	/*background-color: lightgray;*/
 }
 
 #banner {
@@ -18,13 +20,36 @@ h1 {
 }
 
 #img-div {
+	width: 98%;
+	margin: 0 auto;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: white;
 }
 
-#tribute-info {
-	width: 75%;
+#image {
+	max-width: 75%;
+	display: block;
+	height: auto;
 	margin: 0 auto;
+}
+
+#tribute-info {
+	width: 33%;
+	margin: 0 auto;
+}
+
+ul {
+	padding: 0;
+}
+
+#quote {
+	text-align: center;
+	font-style: italic;
+}
+
+#learn-more-text {
+	text-align: center;
+	font-weight: bold;
 }
